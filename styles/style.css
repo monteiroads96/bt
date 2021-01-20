@@ -1,0 +1,178 @@
+*{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("../images/bg01.png");
+    background-repeat: repeat-x;
+    background-color:black;
+    
+}
+
+.slides{
+    display: none;
+}
+
+#logomarca{
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav{
+    width: 600px;
+    margin: 0px auto;
+    background-color: aliceblue;
+
+    
+
+}
+
+a{
+    margin: 0px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+
+}
+
+
+
+a:hover{
+    font-weight: bolder;
+}
+
+#imglogo{
+    height:175px ;
+    width:169px;
+}
+
+#container{
+    width: 800px;
+    margin: 10px auto 0px;
+    text-align: center;
+   
+}
+
+.text{
+    width: 600px;
+    margin: 10px auto 0px  ;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+.section{
+    text-align: center;
+}
+
+
+img{
+    width: 800px;
+    height:400px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.slideshow{
+    text-align: center;
+}
+
+
+.piscina a{
+
+    width: 300px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color: black;
+    font-size: 15px;
+  
+}
+
+.piscinas{
+    border-radius: 10px;
+}
+
+#cardapio{
+    background-image: url("../images/cardapio.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.prato{
+    display:flex;
+    width: 400px;
+    height:400px;
+    background-color: aliceblue;
+    margin-left: 50px;  
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.redesocial{
+    display: flex;
+    justify-content: center;
+}
+
+.redesocial img{
+    width:50px;
+    height:50px;
+  
+    
+}
+
+
+h1{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    text-align: left;
+}
+
+td:nth-child(even){
+    text-align: right;
+}
+
+td:nth-child(odd){
+    text-align: left;
+}
+
+
+/*
+@media screen and (min-width: 900px) {
+    body{
+        background-image: none;
+    }
+  
+*/
+
+
+  
